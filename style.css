@@ -22,7 +22,6 @@ header{
 }
 ul{
     list-style: none;
-    cursor: pointer;
 }
 ul a{
     text-decoration: none;
@@ -42,6 +41,7 @@ ul a{
 .nav-list{
     display: flex;
     font-size: 1.7rem;
+    cursor: pointer;
 }
 .nav-list[data-visible="true"]{
 transform: translateX(0%);
