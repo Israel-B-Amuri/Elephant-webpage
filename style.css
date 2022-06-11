@@ -22,8 +22,9 @@ header{
 }
 ul{
     list-style: none;
+    cursor: pointer;
 }
- ul a{
+ul a{
     text-decoration: none;
     color: #ec4848;
 }
