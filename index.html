@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elephant Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <img src="images/elephant.png" alt="" />
+      </div>
+      <button
+        id="nav-button"
+        class="menu-button"
+        aria-controls="nav-list"
+        aria-expanded="false"
+      >
+        <span class="sr-only"></span>
+      </button>
+      <nav id="nav-bar">
+        <ul class="nav-list" data-visible="false">
+          <li>
+            <a data-link="introduction-section" class="nav-item">Intro</a>
+          </li>
+          <li><a data-link="asian" class="nav-item"> Asian</a></li>
+          <li>
+            <a data-link="african-savanna" class="nav-item"> African Savanna</a>
+          </li>
+          <li>
+            <a data-link="african-forest" class="nav-item"> African Forest</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-section">
+      <section id="showcase-pic">
+        <img
+          src="images/pexels-ed-peeters-4556928.jpg"
+          alt="showcase picture of an elephant"
+          class="image"
+        />
+      </section>
+      <section id="introduction-section">
+        <h1 class="heading main-heading">Selfless Giants</h1>
+        <div class="paragraphs">
+          <p class="paragraph">
+            Despite being one of the largest animals, Elephants happen to be one
+            of the selfless and defentless animals in the world. Almost every
+            elephant face a threat of extinction from human beings.
+          </p>
+          <p>
+            If we were to count the number of elephants today, it would be
+            dispointing to find how much harm man has done to them. If only we
+            could wake up and open our eyes, we would see that man was created
+            to protect nature. But unfortunately that’s not the case these days.
+          </p>
+          <p>
+            For this reason, I would like to orient you on these wonderful
+            animals. I will take you on the journey around the world and open
+            your eyes on the different types of elephants and so on.
+          </p>
+        </div>
+      </section>
+      <section id="species">
+        <div class="elephant" id="asian">
+          <h2 class="heading">Asian Elephant</h2>
+          <img
+            src="images/pexels-katie-hollamby-3691823.jpg"
+            alt="A picture of three asian Elephants"
+            class="image"
+          />
+          <div class="paragraphs">
+            <p class="paragraph">
+              Asian Elephants are slightly smaller than african savanna
+              elephant. They are thought of have originated from the sub-saharan
+              Africa. In some parts of asia, the are considered sacred and taken
+              as an object of worship.
+            </p>
+          </div>
+        </div>
+        <div class="elephant" id="african-savanna">
+          <h2 class="heading">African Savanna Elephant</h2>
+          <img
+            src="images/pexels-harvey-sapir-1054655.jpg"
+            alt="A picture of an african savanna elephant"
+            class="image"
+          />
+          <div class="paragraphs">
+            <p class="paragraph">
+              African savanna elephants are the largest of the three species of
+              elephants. They are spread around 37 countries in Africa.
+            </p>
+          </div>
+        </div>
+        <div class="elephant" id="african-forest">
+          <h2 class="heading">African Forest Elephant</h2>
+          <img
+            src="images/pexels-antony-trivet-8466505.jpg"
+            alt="A picture of an african forest elephant"
+            class="image"
+          />
+          <div class="paragraph">
+            <p>
+              African forest elephants are the smallest of the three species of
+              elephants. They are mostly found along the Congo Bain and the west
+              africa. .
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">&copy; Copyright 2022</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
